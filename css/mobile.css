@@ -1,0 +1,22 @@
+/*BASE*/
+:root{
+    /*COLOR*/
+    --main-background: hsl(233, 47%, 7%);
+    --main-blue: hsl(244, 38%, 16%);
+    --main-violet: hsl(277, 64%, 61%);
+    --second-white:  hsl(0, 0%, 100%);
+    --second-white-dark: hsla(0, 0%, 100%, 0.75);
+    --second-white-darker: hsla(0, 0%, 100%, 0.6);
+    /*FONT FAMILY*/
+    --font-Inter: 'Inter', sans-serif;
+    --font-Lexend-Deca: 'Lexend Deca', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: var(--font-Inter);
+    font-size: 62.5%;
+}
