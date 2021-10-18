@@ -1,0 +1,209 @@
+/*BASE*/
+:root{
+    /*COLOR*/
+    --main-background: hsl(233, 47%, 7%);
+    --main-card: hsl(244, 38%, 16%);
+    --main-violet: hsl(277, 64%, 61%);
+    --second-white:  hsl(0, 0%, 100%);
+    --second-white-dark: hsla(0, 0%, 100%, 0.75);
+    --second-white-darker: hsla(0, 0%, 100%, 0.6);
+    /*FONT FAMILY*/
+    --font-Inter: 'Inter', sans-serif;
+    --font-Lexend-Deca: 'Lexend Deca', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: var(--font-Inter);
+    font-size: 62.5%;
+}
+
+/*BACKGROUND*/
+body{
+    background-color: var(--main-background);
+    color: var(--second-white);
+}
+
+/*MAIN*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*MAIN CONTAINER*/
+main .container-card{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 0 40px 0;
+    width: 1020px;
+    height: 425px;
+    background-color: var(--main-card);
+    border-radius: 10px;
+}
+/*MAIN COVER*/
+main .container-card__cover{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    position: relative;
+    width:  515px;
+    height: 425px;
+    background-image: url(../images/image-header-desktop.jpg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0 10px 10px 0;
+}
+main .container-card__cover div::before, 
+     .container-card__cover div::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    border-radius: 0 10px 10px 0;
+}
+main .container-card__cover div::before{
+    background-color: var(--main-violet);
+    mix-blend-mode: multiply;
+}
+main .container-card__cover div::after{
+    background-color: var(--main-background);
+    mix-blend-mode: lighten;
+}
+
+/*MAIN TEXT*/
+main .container-card__text{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px 50px 50px;  
+    width: 100%;
+    height: min-content;
+
+}
+main .container-card__text h2{
+    margin: 0 0 20px 0;
+    font-family: var(--font-Inter);
+    font-size: 3.3rem;
+    font-weight: 700;
+    text-align: left;
+    color: var(--second-white);
+}
+main .container-card__text h2 span{
+    display: inline-block;
+    color: var(--main-violet);
+}
+main .container-card__text p{
+    margin: 0 0 0 0;
+    font-family: var(--font-Inter);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    color: var(--second-white-darker);
+}
+
+/*MAIN DATA*/
+main .container-card__data{
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 50px 50px; ;  /*top, right, buttom, left*/
+    width: auto;
+    height: min-content;
+}
+main .container-card__data h3{
+    margin: 0 0 5px 0;
+    font-family: var(--font-Lexend-Deca);
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    color: var(--second-white);  
+}
+main .container-card__data p{
+    font-family: var(--font-Lexend-Deca);
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: left;
+    color: var(--second-white-darker);  
+}
+
+/*FOOTER ATTRIBUTION*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    background: var(--main-background);
+}
+footer .attribution p{
+    font-family: 'Bebas Neue';
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+}
+footer .attribution a{
+    text-decoration: none;
+    color: var(--main-violet);
+}
+
+
+
+
+/*
+1. Positioning.
+2. Model Box.
+3. Typography.
+4. Visual.
+5. Others.
+
+
+
+
+/*
+main .container-card__cover div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(169, 100, 211);
+    mix-blend-mode: multiply;
+    border-radius: 10px 10px 0 0;
+}
+main .container-card__cover div::after{
+    background-color: rgba(169, 100, 211);
+
+}
+
+
+/*top, right, buttom, left*/
+/*
+1. Positioning.
+2. Model Box.
+3. Typography.
+4. Visual.
+5. Others.
+
+*/

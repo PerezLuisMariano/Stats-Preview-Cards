@@ -120,7 +120,7 @@ main .container-card__data{
 main .container-card__data h3{
     margin: 0 0 5px 0;
     font-family: var(--font-Lexend-Deca);
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     font-weight: 700;
     letter-spacing: 1px;
     text-align: center;
@@ -128,11 +128,11 @@ main .container-card__data h3{
 }
 main .container-card__data p{
     font-family: var(--font-Lexend-Deca);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
     letter-spacing: 2px;
     text-align: center;
-    color: var(--second-white-dark);  
+    color: var(--second-white-darker);  
 }
 
 /*FOOTER ATTRIBUTION*/
