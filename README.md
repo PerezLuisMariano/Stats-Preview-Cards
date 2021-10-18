@@ -1,11 +1,11 @@
 ## Frontend Mentor - Stats preview card component
 
 ### Screenshot
-![version-desk](design/me/)
+![version-desk](design/me/Stats-Preview-Cards-me.png)
 
 
 ### Links
-- [Live Site ](https://perezluismariano.github.io//)
+- [Live Site ](https://perezluismariano.github.io/Stats-Preview-Cards/)
 
 ### Built with
 - Semantic HTML5 markup
