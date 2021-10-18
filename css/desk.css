@@ -34,7 +34,7 @@ main{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 92vh;
 }
 
 /*MAIN CONTAINER*/
@@ -152,7 +152,7 @@ footer{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100px;
+    height: 8vh;
     background: var(--main-background);
 }
 footer .attribution p{
