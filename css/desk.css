@@ -94,7 +94,7 @@ main .container-card__text{
     height: min-content;
 
 }
-main .container-card__text h2{
+main .container-card__text h1{
     margin: 0 0 20px 0;
     font-family: var(--font-Inter);
     font-size: 3.3rem;
@@ -102,7 +102,7 @@ main .container-card__text h2{
     text-align: left;
     color: var(--second-white);
 }
-main .container-card__text h2 span{
+main .container-card__text h1 span{
     display: inline-block;
     color: var(--main-violet);
 }
@@ -127,7 +127,7 @@ main .container-card__data{
     width: auto;
     height: min-content;
 }
-main .container-card__data h3{
+main .container-card__data h2{
     margin: 0 0 5px 0;
     font-family: var(--font-Lexend-Deca);
     font-size: 2.6rem;
@@ -155,7 +155,7 @@ footer{
     height: 8vh;
     background: var(--main-background);
 }
-footer .attribution p{
+footer .attribution h2{
     font-family: 'Bebas Neue';
     font-size: 1.5rem;
     font-weight: 400;
